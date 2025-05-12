@@ -1,4 +1,4 @@
-﻿from tkinter import Tk, Label, Entry, Text, Button, END, messagebox, filedialog
+from tkinter import Tk, Label, Entry, Text, Button, END, messagebox, filedialog
 import imghdr
 import smtplib
 import ssl
@@ -35,7 +35,7 @@ l_lisatud.pack()
 # Valige mitu faili
 def vali_pilt():
     global files
-    files=filedialog.askopenfilename()
+    files=filedialog.askopenfilenames()
     if files:
         l_lisatud.configure(text=f"Lisatud failid: {len(files)}")
 
@@ -57,7 +57,7 @@ def saada_kiri():
     smtp_server="smtp.gmail.com"
     port=587
     sender_email="oleinik.marina@gmail.com"
-    password="sdas fssd dfsf ghgh" #Teie rakenduse võti
+    password="tccu cmnw ryej nngi" #Teie rakenduse võti
 
     # Lisa e-kirja lõppu allkiri
     full_kiri = f"{kiri}\n\n--\n{allkiri}"
