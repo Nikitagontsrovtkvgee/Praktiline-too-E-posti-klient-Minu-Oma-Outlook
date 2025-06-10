@@ -57,7 +57,7 @@ def saada_kiri():
     smtp_server="smtp.gmail.com"
     port=587
     sender_email="nikitosgoldboss@gmail.com"
-    password="tccu cmnw ryej nngi" #Teie rakenduse võti
+    password="yfct fdko yjie khof" #Teie rakenduse võti
 
     # Lisa e-kirja lõppu allkiri
     full_kiri = f"{kiri}\n\n--\n{allkiri}"
